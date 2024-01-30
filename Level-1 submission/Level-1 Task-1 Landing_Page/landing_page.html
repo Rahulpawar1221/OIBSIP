@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet"  href="style.css" />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: #333;
+        color: aqua;
+        text-align: center;
+        padding: 1em;
+      }
+
+      section {
+        margin: 5% 2em;
+        padding: 1em;
+        background-color: #fff;
+        color: rgb(0, 0, 0) !important;
+        border-radius: 8px;
+        background-image: url(https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .tour-packages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .tour-package {
+        width: 30%;
+        margin: 10px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 0em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      li {
+        display: inline;
+        color: black;
+      }
+
+      .navbar {
+        background-color: black;
+        color: aqua;
+        overflow: hidden;
+        float: center;
+      }
+
+      .navbar a {
+        color: #f9f9f9;
+        text-align: right;
+        text-decoration: none;
+      }
+
+      .navbar a:hover {
+        background-color: rgb(140, 134, 134);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome To Elite Tours</h1>
+    </header>
+
+    <div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Deals</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section>
+      <!-- <div style="background-image: url(https://img.freepik.com/free-photo/travel-concept-with-landmarks_23-2149153256.jpg);" -->
+
+      <h2>Popular tour packages</h2>
+      <div class="TourPackages">
+        <div class="TourPackage">
+          <h3>Package 1</h3>
+          <p>Discover amazing destinations with us.</p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div class="TourPackage">
+          <h3>Package 2</h3>
+          <p>Discover amazing destinations with us.</p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div class="TourPackage">
+          <h3>Package 3</h3>
+          <p>Discover amazing destinations with us.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Elite Tour Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
